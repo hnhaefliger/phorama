@@ -14,6 +14,7 @@ setuptools.setup(
     url="https://github.com/hnhaefliger/placeholder",
     license='GPLv3+',
     packages=setuptools.find_packages(),
+    dependency_links=['https://google-coral.github.io/py-repo/']
     classifiers=[
         'Development Status :: 3 - Alpha',
         'Programming Language :: Python :: 3',
