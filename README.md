@@ -6,9 +6,12 @@ Phorama is an neural image processing library for python3. At the moment it allo
 
 ```python3
 import phorama
+from PIL import Image
 
 enhancer = phorama.Enhancer(model='SRGAN')
-enhance.enhance('path/to/input/image.jpg', 'path/to/output/image.jpg')
+img = Image.open('path/to/input/image.jpg'
+img = enhancer.enhance(img)
+img.save('path/to/output/image.jpg')
 ```
 
 ## Examples
