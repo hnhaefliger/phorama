@@ -16,13 +16,24 @@ img.save('path/to/output/image.jpg')
 
 ## Examples
 
+You might notice a few color patches. These are still being worked on.
+
+![Demo 1](https://github.com/hnhaefliger/phorama/blob/main/images/image1_demo.jpeg)
+![Demo 2](https://github.com/hnhaefliger/phorama/blob/main/images/image2_demo.jpeg)
+![Demo 3](https://github.com/hnhaefliger/phorama/blob/main/images/image3_demo.jpeg)
+![Demo 4](https://github.com/hnhaefliger/phorama/blob/main/images/image4_demo.jpeg)
+![Demo 5](https://github.com/hnhaefliger/phorama/blob/main/images/image5_demo.jpeg)
+![Demo 6](https://github.com/hnhaefliger/phorama/blob/main/images/image6_demo.jpeg)
+![Demo 7](https://github.com/hnhaefliger/phorama/blob/main/images/image7_demo.jpeg)
+![Demo 8](https://github.com/hnhaefliger/phorama/blob/main/images/image8_demo.jpeg)
+
 ## Models
 
-Models currently implemented:
+***Models currently implemented***:
 
 SRGAN (https://arxiv.org/pdf/1609.04802.pdf)
 
-Models to be implemented:
+***Models to be implemented***:
 
 UNet (https://arxiv.org/pdf/1505.04597.pdf)
 
