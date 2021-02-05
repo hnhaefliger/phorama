@@ -5,6 +5,7 @@ from tensorflow.keras.layers import Input, Conv2D, UpSampling2D, Activation, Add
 from phorama.models.model import PhoramaModel
 
 def ResidualBlock(inputs, filters):
+    '''Residual convolutional block.'''
     x = Conv2D(filters, (3,3), strides=1, padding='same')(inputs)
     x = Activation('relu')(x)
     x = BatchNormalization(momentum=0.8)(x)
@@ -14,13 +15,16 @@ def ResidualBlock(inputs, filters):
     return x
 
 def DeConv2D(inputs):
+    '''Block to double the input resolution as described in the SRGAN paper.'''
     x = UpSampling2D(size=2)(inputs)
     x = Conv2D(256, (3,3), strides=1, padding='same')(x)
     x = Activation('relu')(x)
     return x
 
 class SRGAN(PhoramaModel):
+    '''SRGAN model as described in the paper "Photo-Realistic Single Image Super-Resolution Using a Generative Adversarial Network" (https://arxiv.org/pdf/1609.04802.pdf).'''
     def __init__(self, load_path):
+        '''Construct the model and load weights from specified path.'''
         inputs = Input(shape=(None, None, 3))
         inner = inputs
 
