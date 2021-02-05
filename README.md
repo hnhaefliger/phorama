@@ -1,6 +1,6 @@
 # phorama
 
-A neural image enhancement library for python3
+A neural image enhancement library for python3.
 
 ## Usage
 
