@@ -22,7 +22,11 @@ def DeConv2D(inputs):
     return x
 
 class SRGAN(PhoramaModel):
-    '''SRGAN model as described in the paper "Photo-Realistic Single Image Super-Resolution Using a Generative Adversarial Network" (https://arxiv.org/pdf/1609.04802.pdf).'''
+    '''
+    Model as described in the paper SRGAN.
+    
+    "Photo-Realistic Single Image Super-Resolution Using a Generative Adversarial Network" (https://arxiv.org/pdf/1609.04802.pdf).
+    '''
     def __init__(self, load_path):
         '''Construct the model and load weights from specified path.'''
         inputs = Input(shape=(None, None, 3))
