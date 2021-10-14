@@ -33,11 +33,11 @@ You might notice a few color patches. These are still being worked on.
 
 - [x] SRGAN (https://arxiv.org/pdf/1609.04802.pdf)
 
+- [x] RSGUNet (https://openaccess.thecvf.com/content_ECCVW_2018/papers/11133/Huang_Range_Scaling_Global_U-Net_for_Perceptual_Image_Enhancement_on_Mobile_ECCVW_2018_paper.pdf)
+
 ***Models to be implemented***:
 
 - [ ] UNet (https://arxiv.org/pdf/1505.04597.pdf)
-
-- [ ] RSGUNet (https://openaccess.thecvf.com/content_ECCVW_2018/papers/11133/Huang_Range_Scaling_Global_U-Net_for_Perceptual_Image_Enhancement_on_Mobile_ECCVW_2018_paper.pdf)
 
 - [ ] GVTNet (https://arxiv.org/pdf/2008.02340.pdf)
 
